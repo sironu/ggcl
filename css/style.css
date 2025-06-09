@@ -19,22 +19,26 @@
 
   0% {
 
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../Images/farmer-in-the-field');
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../Images/farmer-in-the-field');
+    background-attachment: fixed;
   }
 
   25% {
 
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../Images/farmer-in-the-field2');
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../Images/farmer-in-the-field2');
+    background-attachment: fixed;
   }
 
   50% {
 
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../Images/farmer-in-the-field3');
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../Images/farmer-in-the-field3');
+    background-attachment: fixed;
   }
 
   100% {
 
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../Images/farmer-in-the-field4');
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../Images/farmer-in-the-field4');
+    background-attachment: fixed;
   }
 
 }
@@ -56,7 +60,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../Images/farmer-in-the-field');
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../Images/farmer-in-the-field');
+  background-attachment: fixed;
 
 
 }
