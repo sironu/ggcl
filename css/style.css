@@ -1,0 +1,62 @@
+@keyframes textColor {
+  0% {
+    color: white;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: white;
+  }
+  100% {
+    color: transparent;
+  }
+}
+@keyframes changeBackground {
+
+  0% {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../Images/farmer-in-the-field');
+  }
+
+  25% {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../Images/farmer-in-the-field2');
+  }
+
+  50% {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../Images/farmer-in-the-field3');
+  }
+
+  100% {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../Images/farmer-in-the-field4');
+  }
+
+}
+
+.welcome-note {
+  animation-name: textColor;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+
+}
+.hero-bg {
+  animation-name: changeBackground;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../Images/farmer-in-the-field');
+
+
+}
