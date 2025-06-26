@@ -2,19 +2,24 @@
   0% {
     color: white;
   }
+
   25% {
     color: white;
   }
+
   50% {
     color: white;
   }
+
   75% {
     color: white;
   }
+
   100% {
     color: transparent;
   }
 }
+
 @keyframes changeBackground {
 
   0% {
@@ -49,8 +54,8 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
-
 }
+
 .hero-bg {
   animation-name: changeBackground;
   animation-duration: 30s;
@@ -62,6 +67,7 @@
   background-size: cover;
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../Images/farmer-in-the-field');
   background-attachment: fixed;
-
+  height: 100vh;
+  width: 100%;
 
 }

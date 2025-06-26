@@ -31,11 +31,33 @@ mnb.addEventListener('click', () =>{
 heda.addEventListener("mouseleave", closeMobileNav);
 
 
-function b2t() {
-  scrollTo({ top: 0, behavior: "smooth" });
+function startIncrementTimer(elementId, target, speed) {
+  const display = document.getElementById(elementId);
 
+  let count = 0;
+    update();
+  function update() {
+    count++;
+    display.textContent = count;
+    if (count < target) {
+      setTimeout(update, `${speed}`);
+    }
+  }
 }
-back2Top.addEventListener("click", b2t);
 
 
 
+const school = document.querySelector("#school");
+function callback(entries) {
+  for (const entry of entries) {
+    if (entry.isIntersecting){
+      startIncrementTimer("GGCL-Training-School", 50, 220);
+      startIncrementTimer("GGCL-Graduates", 500, 20);
+      startIncrementTimer("Free-Online-Courses", 100, 100);
+      startIncrementTimer("Happy-Customers", 400, 30);
+    }
+  }
+}
+
+const observer = new IntersectionObserver(callback, { threshold: 0.75 });
+observer.observe(school);
