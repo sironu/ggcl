@@ -33,7 +33,6 @@ heda.addEventListener("mouseleave", closeMobileNav);
 
 function startIncrementTimer(elementId, target, speed) {
   const display = document.getElementById(elementId);
-
   let count = 0;
     update();
   function update() {
@@ -51,7 +50,7 @@ const school = document.querySelector("#school");
 function callback(entries) {
   for (const entry of entries) {
     if (entry.isIntersecting){
-      startIncrementTimer("GGCL-Training-School", 50, 220);
+      startIncrementTimer(`GGCL-Training-School`, 50, 220);
       startIncrementTimer("GGCL-Graduates", 500, 20);
       startIncrementTimer("Free-Online-Courses", 100, 100);
       startIncrementTimer("Happy-Customers", 400, 30);
