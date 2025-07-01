@@ -1,4 +1,4 @@
-@keyframes textColor {
+/* @keyframes textColor {
   0% {
     color: white;
   }
@@ -18,7 +18,7 @@
   100% {
     color: transparent;
   }
-}
+} */
 
 @keyframes changeBackground {
 
@@ -48,13 +48,13 @@
 
 }
 
-.welcome-note {
+/* .welcome-note {
   animation-name: textColor;
   animation-duration: 7s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
-}
+} */
 
 .hero-bg {
   animation-name: changeBackground;

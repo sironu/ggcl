@@ -60,3 +60,20 @@ function callback(entries) {
 
 const observer = new IntersectionObserver(callback, { threshold: 0.75 });
 observer.observe(school);
+
+
+let x = "Generic Global Consult Limited";
+let string = document.querySelector(".demo");
+
+let count = 0;
+
+function z() {
+  if (count < x.length + 200) {
+    count++;
+    string.innerHTML = x.substring(0, count);
+  } else {
+    count = 0;
+  }
+  setTimeout(z, 75);
+}
+z();
